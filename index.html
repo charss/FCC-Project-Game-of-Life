@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- 50 x 30 grid -->
+    <h1 class="title">GAME OF LIFE</h1>
+    <div id="grid-container"></div>
+    <h2 id="generation">0</h2>
+    <button onclick="toggle_state()">Button</button>
+    <button onclick="tick()">Tick</button>
+    <button onclick="create_copy()">CREATE COPY</button>
+  </body>
+  <script src="./script.js"></script>
+</html>
